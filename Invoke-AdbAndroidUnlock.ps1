@@ -98,7 +98,5 @@ StartTouch
 # 1 2 3
 # 4 5 6
 # 7 8 0
-SwipePattern 5,4,1,2,3,6,0,8,7
+SwipePattern 0,1,2,3,4,5,6,7,8
 FinishTouch
-Start-Sleep -Milliseconds 1000
-. C:\PortablePrograms\scrcpy-adb-reverseusbinternetutil\scrcpy\scrcpy.exe -s 36061JEGR02749 --audio-buffer 0 --audio-codec raw -b 32M --forward-all-clicks --kill-adb-on-close --push-target /sdcard/Download/ --video-codec h265 -w
